@@ -4,14 +4,24 @@ p{
  display: flex;
  background-color: tomato;
  align-items: center;
- gap: 20px;
+ justify-content: space-between;
  color: white;
 }
-p>a{
+.button :hover{
+ background-color: green;
 }
-p :hover {
- background-color: white;
+.coding{
+ margin-top: 100px;
+ background-color: violet;
+ gap: 30px;
 }
-.button{
- justify-content: flex-end;
+li {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /* background-color: aqua; */
+}
+.java:hover{
+ background-color: gold;
+}
+.python:hover{
+ background-color: gold;
 }
