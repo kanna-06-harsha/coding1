@@ -1,0 +1,17 @@
+p{
+ height: 45px;
+ /* width: 500px; */
+ display: flex;
+ background-color: tomato;
+ align-items: center;
+ gap: 20px;
+ color: white;
+}
+p>a{
+}
+p :hover {
+ background-color: white;
+}
+.button{
+ justify-content: flex-end;
+}
